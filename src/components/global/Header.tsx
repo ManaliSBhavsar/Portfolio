@@ -2,10 +2,15 @@ import profilePicture from '../../assets/images/Manali-Profile-Picture.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import P from './P';
+import { motion } from "framer-motion";
 
 function Header() {
   return (
-    <header className='header mb-16 pt-16'>
+    <motion.header
+      initial={{ x: -20, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      transition={{ duration: 1.2, ease: "easeOut" }}
+      className='header mb-16 pt-16'>
       <div className='flex gap-8 items-center mb-8'>
         <span className='rounded-full overflow-hidden flex shrink-0 shadow-xl'>
           <img
@@ -31,7 +36,7 @@ function Header() {
           <FontAwesomeIcon icon={faDownload} />
         </a>
       </div>
-    </header>
+    </motion.header>
   );
 }
 

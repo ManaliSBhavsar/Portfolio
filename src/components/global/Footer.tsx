@@ -2,10 +2,15 @@ import { socialLinks } from "../../data/social";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import P from "./P";
 import H2 from "./H2";
+import { motion } from "framer-motion";
 
 function Footer() {
   return (
-    <footer className="mt-16 pb-16">
+    <motion.footer
+      initial={{ y: -20, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 1.2, ease: "easeOut" }}
+      className="mt-16 pb-16">
       <H2>Get in Touch</H2>
       <P>Looking to connect or collaborate? Feel free to reach out — I'd love to hear from you!</P>
       <div className="my-8 flex flex-row justify-center gap-x-4">
@@ -20,7 +25,7 @@ function Footer() {
           </a>
         ))}
       </div>
-    </footer>
+    </motion.footer>
   );
 }
 
