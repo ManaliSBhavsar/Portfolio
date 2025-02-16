@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "duration": "2021 - Present",
+        "role": "System Engineer",
+        "company": "Tata Consultancy Services",
+        "description": "At Notion, I was responsible for creating and iterating on digital product designs. I worked closely with the design and development teams to create user-centered designs and contributed to the user research process.",
+        "url": "https://www.tcs.com/",
+        "tech": [
+            "React",
+            "Node",
+            "MongoDB"
+        ]
+    },
+    {
+        "id": 2,
+        "duration": "Jan 2021 - June 2021",
+        "role": "Developer",
+        "company": "Cognizant",
+        "description": "At Notion, I was responsible for creating and iterating on digital product designs. I worked closely with the design and development teams to create user-centered designs and contributed to the user research process.",
+        "url": "https://www.cognizant.com/",
+        "tech": [
+            "React",
+            "Node",
+            "MongoDB"
+        ]
+    }
+]

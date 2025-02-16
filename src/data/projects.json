@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "year": 2021,
+        "title": "Portfolio Website",
+        "description": "A personal portfolio built with Next.js and Tailwind CSS.",
+        "url": "https://github.com",
+        "tech": ["React.js", "Tailwind CSS", "Vercel"]
+    },
+    {
+        "id": 2,
+        "year": 2021,
+        "title": "E-commerce Website",
+        "description": "An e-commerce website built with React and Redux.",
+        "url": "https://github.com",
+        "tech": ["React.js", "Tailwind CSS", "Vercel"]
+    },
+    {
+        "id": 3,
+        "year": 2021,
+        "title": "Blog Website",
+        "description": "A blog website built with Gatsby and GraphQL.",
+        "url": "https://github.com",
+        "tech": ["React.js", "Tailwind CSS", "Vercel"]
+    },
+    {
+        "id": 4,
+        "year": 2021,
+        "title": "Blog Website",
+        "description": "A blog website built with Gatsby and GraphQL.",
+        "url": "https://github.com",
+        "tech": ["React.js", "Tailwind CSS", "Vercel","Vercel"]
+    }
+]
