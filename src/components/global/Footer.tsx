@@ -20,6 +20,7 @@ function Footer() {
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Social Media Link"
           >
             <FontAwesomeIcon icon={link.icon} />
           </a>
