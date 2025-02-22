@@ -1,9 +1,11 @@
+import { ReactNode } from "react";
+
 interface PProps {
-  children: string;
+  children: ReactNode;
 }
 
 const P = ({ children }: PProps) => {
-  return <p className="text-base text-gray-600 leading-6">{children}</p>;
+  return <p className="text-base text-gray-700 leading-6">{children}</p>;
 };
 
 export default P

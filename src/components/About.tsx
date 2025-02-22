@@ -5,16 +5,25 @@ function About() {
     <section>
       <H2>About Me</H2>
       <P>
-        My venture into the world of Computer Science started in high school
-        when I had my first programming class. The problem-solving aspects of
-        coding fascinated me- how a few lines of code could convert an idea into
-        an application. Over the past three years of my work as a Frontend
-        Developer, I have developed strong skills in JavaScript, React, and
-        modern web technologies, building seamless and interactive user
-        experiences. I enjoy writing clean code while constantly keeping up with
-        modern practices and techniques in the fast-paced tech world. My passion
-        lies in crafting intuitive UIs and my goal is to unite both performance
-        and aesthetics to provide users with an enjoyable experience.
+        Hi, I am Manali Bhavsar, a frontend developer at <b><a href= 'https://www.tcs.com/' target='_blank'>TCS</a></b>. My journey into Computer Science started in high school when my first
+        coding class ignited a strong interest. The capability of taking an idea
+        and creating a complete application using only a handful of lines of
+        code amazed me.
+      </P>
+      <br />
+      <P>
+        Flash forward to now — I've worked as a <b>Frontend Developer</b> for
+        the last three years, specializing in <b>JavaScript, React, and
+        cutting-edge web technologies</b> to design smooth, responsive user
+        experiences. I live for crafting <b>clean, efficient code</b> and keeping pace
+        in the constantly changing tech world.
+      </P>
+      <br />
+      <P>
+        What really motivates me is <b>designing intuitive and visually beautiful
+        UIs</b> that not only look awesome but also work perfectly. My aim? To
+        connect <b>performance and aesthetics</b>, making each user interaction seamless
+        and exciting.
       </P>
     </section>
   );
