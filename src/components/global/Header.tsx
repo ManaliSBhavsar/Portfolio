@@ -26,11 +26,6 @@ function Header() {
         </div>
       </div>
       <div className='flex flex-col gap-[15px] items-center'>
-        <P>
-          🚀
-          Crafting responsive and visually engaging web
-          applications
-        </P>
         <a href='#' className='text-sm inline-flex items-center gap-2 px-6 py-3 w-fit text-white bg-gray-800 border-2 border-transparent hover:border-gray-800 hover:text-gray-800 hover:bg-white focus:border-gray-800 focus:text-gray-800 focus:bg-white transition-colors duration-300 ease-in-out rounded-lg shadow-md font-semibold transform'>
           Download Resume
           <FontAwesomeIcon icon={faDownload} />

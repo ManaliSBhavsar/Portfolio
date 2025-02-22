@@ -19,6 +19,10 @@
   --medium-gray: #333;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--color-gray-100);
