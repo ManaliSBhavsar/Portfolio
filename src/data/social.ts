@@ -1,5 +1,5 @@
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export const socialLinks = [
     {
@@ -16,10 +16,5 @@ export const socialLinks = [
         id: 3,
         icon: faEnvelope,
         url: "mailto:manalisbhavsar@gmail.com"
-    },
-    {
-        id: 4,
-        icon: faPhone,
-        url: "tel:+919766249259"
     }
 ]

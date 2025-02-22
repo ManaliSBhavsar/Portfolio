@@ -22,5 +22,9 @@
     {
         "id": 6,
         "name": "React.js"
+    },
+    {
+        "id": 7,
+        "name": "Next.js"
     }
 ]
