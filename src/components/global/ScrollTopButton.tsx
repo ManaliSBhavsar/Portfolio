@@ -28,7 +28,7 @@ function ScrollTopButton() {
     <div title='Scroll to Top'>
       {isVisible && 
         <div onClick={scrollToTop} className='fixed bottom-6 right-6 w-12 h-12 bg-gray-800 text-white rounded-full shadow-lg flex items-center justify-center 
-        hover:bg-gray-900 cursor-pointer'>
+        hover:bg-gray-900 cursor-pointer z-1 dark:bg-white/80 dark:text-gray-800 dark:hover:bg-white'>
           <FontAwesomeIcon icon={faArrowUp} />
         </div>
       }

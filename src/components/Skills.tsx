@@ -9,7 +9,7 @@ function Skills() {
       <P>Here are the technologies and tools I specialize in and have been working with lately:</P>
       <div className="flex flex-wrap flex-row gap-4 mt-4">
         {techs.map((tech, index) => (
-          <p key={index} className="border-[1.5px] py-1 px-4 rounded-full text-sm text-teal-800">
+          <p key={index} className="border-[1.5px] py-1 px-4 rounded-lg text-sm text-gray-800 bg-gray-100 shadow-inner">
             {tech.name}
           </p>
         ))}

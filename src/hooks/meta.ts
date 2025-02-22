@@ -1,7 +1,12 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-const MetaTags = ({ title, description }: { title: string, description: string }) => {
+interface MetaTagsProps {
+  title: string;
+  description: string;
+}
+
+const MetaTags = ({ title, description } : MetaTagsProps) => {
   const location = useLocation();
 
   useEffect(() => {
