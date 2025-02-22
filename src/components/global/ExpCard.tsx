@@ -7,7 +7,7 @@ type ExpCardProps = {
 
 function ExpCard(props: ExpCardProps) {
   return (
-    <div className="p-4 md:p-6 border-2 border-gray-300 rounded-lg shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-1 active:shadow-xl active:-translate-y-1 dark:hover:shadow-[0_10px_10px_rgba(255,255,255,0.4)] dark:active:shadow-[0_10px_10px_rgba(255,255,255,0.4)]">
+    <div className="p-4 md:p-6 border-2 border-gray-300 rounded-lg shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-1 focus-within:shadow-xl focus-within:-translate-y-1 dark:hover:shadow-[0_10px_10px_rgba(255,255,255,0.4)] dark:focus-within:shadow-[0_10px_10px_rgba(255,255,255,0.4)]">
       <div className="flex justify-between items-center">
         <div className="mb-2">
           <p className="font-bold text-base text-gray-800 dark:text-white">{props.role}</p>
