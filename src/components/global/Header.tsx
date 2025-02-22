@@ -2,17 +2,15 @@ import profilePicture from '../../assets/images/Manali-Profile-Picture.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import P from './P';
-import { motion } from "framer-motion";
 import SocialLinks from './SocialLinks';
+import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
+  const location = useLocation();
   return (
-    <motion.header
-      initial={{ x: -20, opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      transition={{ duration: 1.2, ease: "easeOut" }}
-      className='header mb-12 pt-16'>
-      <div className='flex flex-col items-baseline gap-[15px] md:flex-row md:gap-0 md:justify-between'>
+    <header className='header pt-12'>
+      {
+      location.pathname === "/" && <div className='flex flex-col items-baseline gap-[15px] md:flex-row md:gap-0 md:justify-between'>
         <div className='flex gap-8 items-center'>
           <div>
             <h1 className='text-xl md:text-2xl font-bold text-gray-800 dark:text-white'>Manali Bhavsar</h1>
@@ -35,7 +33,14 @@ function Header() {
           <SocialLinks />
         </div>
       </div>
-    </motion.header>
+      }
+      {
+        location.pathname === "/projects" && 
+        <div className='mb-4'>
+          <Link to="/" className="text-gray-800 text-base"><u>Home</u></Link>
+        </div>
+      }
+    </header>
   );
 }
 

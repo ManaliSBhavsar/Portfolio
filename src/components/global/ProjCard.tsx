@@ -12,7 +12,7 @@ function ProjCard(props: ProjCardsProps) {
       <div className="bg-white p-6 shadow-lg rounded-lg border border-gray-400 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl focus:scale-105 focus:shadow-2xl">
         <P>{props.year}</P>
         <a href={props.url} target="_blank" rel="noopener noreferrer" className="block w-fit">
-        <div className="flex items-center space-x-2 py-2 text-gray-700 font-bold">
+        <div className="flex items-center space-x-2 py-2 text-gray-800 font-bold">
           <FontAwesomeIcon icon={faGithub} />
           <P>{props.title}</P>
         </div>

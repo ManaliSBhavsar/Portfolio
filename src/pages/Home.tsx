@@ -1,7 +1,7 @@
 import Header from '../components/global/Header'
 import MainContent from '../components/MainContent'
 import Footer from '../components/global/Footer'
-import ScrollToTop from '../components/global/ScrollToTop'
+import ScrollTopButton from '../components/global/ScrollTopButton'
 
 function Home() {
     return (
@@ -9,7 +9,7 @@ function Home() {
         <Header />
         <MainContent />
         <Footer />
-        <ScrollToTop />
+        <ScrollTopButton />
       </>
     )
 }

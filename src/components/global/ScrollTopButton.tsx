@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
-function ScrollToTop() {
+function ScrollTopButton() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -36,4 +36,4 @@ function ScrollToTop() {
   );
 }
 
-export default ScrollToTop
+export default ScrollTopButton
