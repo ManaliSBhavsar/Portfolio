@@ -9,7 +9,7 @@ type ProjCardsProps = {
 
 function ProjCard(props: ProjCardsProps) {
   return (
-      <div className="bg-white p-6 shadow-lg rounded-lg border border-gray-400 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl focus-within:scale-105 focus-within:shadow-2xl dark:bg-white/3">
+      <div className="bg-white p-6 shadow-lg rounded-lg border border-gray-400 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl active:scale-105 active:shadow-2xl dark:bg-white/3">
         <P>{props.year}</P>
         <a href={props.url} target="_blank" rel="noopener noreferrer" className="block w-fit">
         <div className="flex items-center space-x-2 py-2 text-gray-800 font-bold">
