@@ -15,7 +15,7 @@ function FeaturedProjects() {
           <ProjCard key={proj.id} {...proj} />
         ))}
       </div>
-      <Link to="/projects" className="text-gray-800 text-base ml-2"><u className="mr-2">View Projects</u>
+      <Link to="/projects" className="text-gray-800 text-base ml-2 dark:text-white"><u className="mr-2">View Projects</u>
         <FontAwesomeIcon icon={faArrowRight} />
       </Link>
     </section>
