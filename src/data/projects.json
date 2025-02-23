@@ -1,50 +1,82 @@
 [
     {
         "id": 1,
-        "year": 2021,
+        "year": 2024,
         "title": "Portfolio Website",
-        "description": "A personal portfolio built with Next.js and Tailwind CSS.",
-        "url": "https://github.com",
-        "tech": ["React.js", "Tailwind CSS", "Vercel"]
+        "description": "React.JS portfolio with Tailwind CSS and animations.",
+        "url": "https://github.com/ManaliSBhavsar/Portfolio",
+        "tech": ["React.JS", "Tailwind CSS", "TypeScript"]
     },
     {
         "id": 2,
-        "year": 2021,
-        "title": "E-commerce Website",
-        "description": "An e-commerce website built with React and Redux.",
-        "url": "https://github.com",
-        "tech": ["React.js", "Tailwind CSS", "Vercel"]
+        "year": 2020,
+        "title": "Covid Trace Detector",
+        "description": "Aadhaar-linked face recognition for COVID tracing.",
+        "url": "https://github.com/ManaliSBhavsar/Covid-Trace-Detector",
+        "tech": ["React.JS", "Mongo DB", "Face API JS"]
     },
     {
         "id": 3,
-        "year": 2021,
-        "title": "Blog Website",
-        "description": "A blog website built with Gatsby and GraphQL.",
-        "url": "https://github.com",
-        "tech": ["React.js", "Tailwind CSS", "Vercel"]
+        "year": 2019,
+        "title": "Voice Book Finder",
+        "description": "Library system with voice search, authentication, and MySQL tracking.",
+        "url": "https://github.com/ManaliSBhavsar/Voice-Book-Finder",
+        "tech": ["Python", "MySQL", "Speech Recognition"]
     },
     {
         "id": 4,
-        "year": 2021,
-        "title": "Blog Website",
-        "description": "A blog website built with Gatsby and GraphQL.",
-        "url": "https://github.com",
-        "tech": ["React.js", "Tailwind CSS", "Vercel","Vercel"]
+        "year": 2019,
+        "title": "Stock Price Prediction",
+        "description": "ML-based stock price prediction using LSTM and moving averages.",
+        "url": "https://github.com/ManaliSBhavsar/Stock-Price-Prediction",
+        "tech": ["Python", "Deep Learning", "LSTM"]
     },
     {
         "id": 5,
-        "year": 2021,
-        "title": "Blog Website",
-        "description": "A blog website built with Gatsby and GraphQL.",
-        "url": "https://github.com",
-        "tech": ["React.js", "Tailwind CSS", "Vercel","Vercel"]
+        "year": 2019,
+        "title": "Mall Customers Clustering",
+        "description": "K-Means mall customers clustering for targeted marketing.",
+        "url": "https://github.com/ManaliSBhavsar/mall-customers-clustering",
+        "tech": ["Python", "MatPlotLib", "Scikit Learn"]
     },
     {
         "id": 6,
+        "year": 2019,
+        "title": "Maze Solver DFS",
+        "description": "DFS maze solver with real-time visualization in Python.",
+        "url": "https://github.com/ManaliSBhavsar/Maze-Solver-DFS",
+        "tech": ["Python", "Tkinter", "Data Structures"]
+    },
+    {
+        "id": 7,
+        "year": 2018,
+        "title": "Bounce Ball Game",
+        "description": "Two-player Python ball game with paddles in Tkinter.",
+        "url": "https://github.com/ManaliSBhavsar/bounce-ball-game",
+        "tech": ["Python", "Tkinter"]
+    },
+    {
+        "id": 8,
+        "year": 2018,
+        "title": "Route Optimization",
+        "description": "SSSP-based program for shortest paths between Indian capitals.",
+        "url": "https://github.com/ManaliSBhavsar/Route-Optimization-Indian-Capitals",
+        "tech": ["Python", "Google Maps", "Data Structures"]
+    },
+    {
+        "id": 9,
         "year": 2021,
-        "title": "Blog Website",
-        "description": "A blog website built with Gatsby and GraphQL.",
-        "url": "https://github.com",
-        "tech": ["React.js", "Tailwind CSS", "Vercel","Vercel"]
+        "title": "Over Analysis App",
+        "description": "ASP.NET MVC app for bowler performance analysis using SQL Server.",
+        "url": "https://github.com/ManaliSBhavsar/Over-Analysis-App",
+        "tech": ["C#", "JavaScript", "SQL"]
+    },
+    {
+        "id": 10,
+        "year": 2021,
+        "title": "Electricity Bill Automation",
+        "description": "Automated electricity billing with usage-based calculation.",
+        "url": "https://github.com/ManaliSBhavsar/ElectricityBillAutomation",
+        "tech": ["C#", "JavaScript", "SQL"]
     }
 ]
