@@ -28,11 +28,11 @@ function Header() {
         <div className='flex flex-col gap-[5px] items-center'>
           <a href='#' className='text-xs inline-flex items-center gap-2 px-3 py-2 w-fit text-white
            bg-gray-800 border-2 border-transparent hover:border-gray-800 hover:text-gray-800
-           hover:bg-white focus:border-gray-800 focus:text-gray-800 focus:bg-white 
+           hover:bg-white active:border-gray-800 active:text-gray-800 active:bg-white 
            transition-colors duration-300 ease-in-out rounded-lg shadow-md font-semibold transform
            dark:text-gray-950 dark:bg-white dark:hover:border-white dark:hover:bg-gray-950
-           dark:hover:text-white dark:focus:border-white dark:focus:bg-gray-950
-           dark:focus:text-white'>
+           dark:hover:text-white dark:active:border-white dark:active:bg-gray-950
+           dark:active:text-white'>
             Download Resume
             <FontAwesomeIcon icon={faDownload} />
           </a>
