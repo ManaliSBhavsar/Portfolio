@@ -1,4 +1,5 @@
 import profilePicture from '../../assets/images/Manali-Profile-Picture.jpg';
+import resume from '../../assets/pdfs/ManaliBhavsar_SoftwareDeveloper_Resume.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import P from './P';
@@ -26,7 +27,7 @@ function Header() {
           </span>
         </div>
         <div className='flex flex-col gap-[5px] items-center'>
-          <a href='#' className='text-xs inline-flex items-center gap-2 px-3 py-2 w-fit text-white
+          <a href = {resume} download="ManaliBhavsar_SoftwareDeveloper_Resume.pdf" className='text-xs inline-flex items-center gap-2 px-3 py-2 w-fit text-white
            bg-gray-800 border-2 border-transparent hover:border-gray-800 hover:text-gray-800
            hover:bg-white active:border-gray-800 active:text-gray-800 active:bg-white 
            transition-colors duration-300 ease-in-out rounded-lg shadow-md font-semibold transform
