@@ -2,27 +2,29 @@
     {
         "id": 1,
         "duration": "2021 - Present",
-        "role": "System Engineer",
+        "role": "Frontend Developer",
         "company": "Tata Consultancy Services",
-        "description": "Developed & maintained scalable front-end applications using React & TypeScript. Improved page load speed by 30% through performance optimizations. Worked closely with designers to enhance UI/UX consistency",
+        "description": "Developed and optimized highly scalable and robust websites for Pfizer, ensuring seamless deployment across US and Canada markets. Led on/offboarding processes and collaborated with cross-functional teams to deliver high-priority projects while maintaining quality. Mentored junior developers to foster collaboration and knowledge sharing.",
         "url": "https://www.tcs.com/",
         "tech": [
-            "React",
-            "Node",
-            "MongoDB"
+            "React.JS",
+            "JavaScript",
+            "TypeScript",
+            "HTML & CSS"
         ]
     },
     {
         "id": 2,
         "duration": "Jan 2021 - June 2021",
-        "role": "Developer",
+        "role": "Developer – Intern",
         "company": "Cognizant",
-        "description": "Collaborated on developing dynamic user interfaces with React. Implemented API integrations using Node.js & MongoDB. Enhanced application security and performance",
+        "description": "Developed and optimized .NET applications using C#, ASP.NET MVC, and SQL to improve efficiency and data accuracy. Collaborated on high-quality solutions following best practices.",
         "url": "https://www.cognizant.com/",
         "tech": [
-            "React",
-            "Node",
-            "MongoDB"
+            "HTML & CSS",
+            "JavaScript",
+            "C#",
+            "MySQL"
         ]
     }
 ]
