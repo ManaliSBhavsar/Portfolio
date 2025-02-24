@@ -15,7 +15,7 @@ function Header() {
         <div className='flex gap-8 items-center'>
           <div>
             <h1 className='text-xl md:text-2xl font-bold text-gray-800 dark:text-white'>Manali Bhavsar</h1>
-            <P>Frontend Developer</P>
+            <P>Front-End Developer</P>
           </div>
           <span className='rounded-2xl overflow-hidden flex shrink-0 shadow-xl'>
             <img
