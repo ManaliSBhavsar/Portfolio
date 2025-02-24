@@ -17,7 +17,7 @@ function Header() {
             <h1 className='text-xl md:text-2xl font-bold text-gray-800 dark:text-white'>Manali Bhavsar</h1>
             <P>Frontend Developer</P>
           </div>
-          <span className='rounded-full overflow-hidden flex shrink-0 shadow-xl'>
+          <span className='rounded-2xl overflow-hidden flex shrink-0 shadow-xl'>
             <img
               src={profilePicture}
               alt='Manali Profile Picture'
