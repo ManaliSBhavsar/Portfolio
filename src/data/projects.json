@@ -9,11 +9,11 @@
     },
     {
         "id": 2,
-        "year": 2020,
-        "title": "Covid Trace Detector",
-        "description": "Aadhaar-linked face recognition for COVID tracing.",
-        "url": "https://github.com/ManaliSBhavsar/Covid-Trace-Detector",
-        "tech": ["React.JS", "Mongo DB", "Face API JS"]
+        "year": 2025,
+        "title": "AI DevSuite",
+        "description": "AI-powered platform with 3 AI tools, built with Next.js, TypeScript, and AI APIs.",
+        "url": "https://github.com/ManaliSBhavsar/AI-DevSuite",
+        "tech": ["React.JS", "Next.JS", "NextAuth JS"]
     },
     {
         "id": 3,
@@ -33,6 +33,14 @@
     },
     {
         "id": 5,
+        "year": 2020,
+        "title": "Covid Trace Detector",
+        "description": "Aadhaar-linked face recognition for COVID tracing.",
+        "url": "https://github.com/ManaliSBhavsar/Covid-Trace-Detector",
+        "tech": ["React.JS", "Mongo DB", "Face API JS"]
+    },
+    {
+        "id": 6,
         "year": 2019,
         "title": "Mall Customers Clustering",
         "description": "K-Means mall customers clustering for targeted marketing.",
@@ -40,7 +48,7 @@
         "tech": ["Python", "MatPlotLib", "Scikit Learn"]
     },
     {
-        "id": 6,
+        "id": 7,
         "year": 2019,
         "title": "Maze Solver DFS",
         "description": "DFS maze solver with real-time visualization in Python.",
@@ -48,7 +56,7 @@
         "tech": ["Python", "Tkinter", "Data Structures"]
     },
     {
-        "id": 7,
+        "id": 8,
         "year": 2018,
         "title": "Bounce Ball Game",
         "description": "Two-player Python ball game with paddles in Tkinter.",
@@ -56,7 +64,7 @@
         "tech": ["Python", "Tkinter"]
     },
     {
-        "id": 8,
+        "id": 9,
         "year": 2018,
         "title": "Route Optimization",
         "description": "SSSP-based program for shortest paths between Indian capitals.",
@@ -64,7 +72,7 @@
         "tech": ["Python", "Google Maps", "Data Structures"]
     },
     {
-        "id": 9,
+        "id": 10,
         "year": 2021,
         "title": "Over Analysis App",
         "description": "ASP.NET MVC app for bowler performance analysis using SQL Server.",
@@ -72,7 +80,7 @@
         "tech": ["C#", "JavaScript", "SQL"]
     },
     {
-        "id": 10,
+        "id": 11,
         "year": 2021,
         "title": "Electricity Bill Automation",
         "description": "Automated electricity billing with usage-based calculation.",
