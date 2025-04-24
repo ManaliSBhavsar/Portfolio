@@ -1,5 +1,5 @@
 import profilePicture from '../../assets/images/Manali-Profile-Picture.jpg';
-import resume from '../../assets/pdfs/ManaliBhavsar_SoftwareDeveloper_Resume.pdf';
+import resume from '../../assets/pdfs/ManaliBhavsar_FrontendDeveloper_Resume.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import P from './P';
